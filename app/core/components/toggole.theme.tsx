@@ -12,9 +12,15 @@ const ToggleTheme: React.FC = () => {
       aria-label="Toggle theme"
     >
       {theme === "dark" ? (
-        <Icon icon="iconamoon:mode-dark" className="absolute size-5" />
+        <Icon
+          icon="iconamoon:mode-dark"
+          className="absolute size-5 text-[var(--shapeV1-parent)]"
+        />
       ) : (
-        <Icon icon="iconamoon:mode-light" className="size-5" />
+        <Icon
+          icon="iconamoon:mode-light"
+          className="size-5 text-[var(--shapeV1-parent)]"
+        />
       )}
     </Button>
   );
