@@ -1,5 +1,7 @@
 "use client";
+import FooterApp from "@/app/components/footer-app";
 import HeaderApp from "@/app/components/header-app";
+import Spreed from "@/app/components/ui/spreed";
 export default function DashboardLayout({
   children,
 }: {
@@ -9,6 +11,7 @@ export default function DashboardLayout({
     <>
       <HeaderApp />
       {children}
+      <FooterApp />
     </>
   );
 }
