@@ -26,8 +26,25 @@ const DashboardContainer = () => {
         color={config.primary.background}
       />
       <Container as="main" className="min-h-screen w-full">
-        <View className="flex justify-center items-center min-h-screen">
-          <Text className="text-lg font-extrabold">Init Setup</Text>
+        <View className="flex justify-center items-center   min-h-screen flex-col">
+          <View className="flex justify-center items-center w-full max-w-2/4 flex-col">
+            <View className="flex justify-start items-start gap-2  w-full">
+              <Text className="text-3xl font-bold">Hello</Text>
+              <Text className="text-3xl font-bold">Everyorne</Text>
+            </View>
+            <View className="relative flex justify-center items-center">
+              <Text className="absolute left-0 top-0 -translate-x-23 text-lg font-semibold">
+                Greetings.
+              </Text>
+              <Text className="font-semibold text-2xl text-justify">
+                Greetings, fellow wanderers! I'm Mulia Andiki, your trusty
+                coding bard from the sun-kissed lands of Sidoarjo, East Java,
+                Indonesia. With Next.js and ReactJS as my instruments, I craft
+                code and design magic through Figma, weaving interactive spells
+                of user experience and animation. Your wish is my code!
+              </Text>
+            </View>
+          </View>
         </View>
       </Container>
     </DashboardLayout>
